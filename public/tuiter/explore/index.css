@@ -1,0 +1,204 @@
+html{
+    background-color: black;
+    border-color: rgb(47,51,54);
+    border-width: 4px;
+    border-style: solid;
+}
+
+body {
+    color: white;
+    margin:0px;
+}
+
+.wd-pos-absolute-left {
+    position: fixed;
+    left: 16px;
+}
+
+.wd-pos-top {
+  position: fixed;
+  top:10px;
+}
+
+.wd-pos-top-icon {
+  position: fixed;
+  top:8px;
+}
+
+.wd-rounded-corners-all-around {
+ border-radius: 40px;
+ width: 95%;
+ height: 3%;
+}
+
+.wd-background-gray {
+background-color: #a9a9a9;
+}
+
+.wd-color-white { color: white; }
+
+.wd-pos-absolute-right {
+   position: fixed;
+   right: 12px;
+}
+
+.wd-logo {
+ width:38px;
+ height:38px;
+}
+
+.wd-hyperlink-display {
+    display: inline-block;
+    padding-left:5em;
+
+}
+
+.wd-hyperlink-font-padding {
+    font-size: 15px;
+    padding: 16px;
+
+}
+
+.wd-first-link {
+    color: rgb(29,161,242);
+    text-underline-offset: 1em;
+}
+
+.wd-other-hyperlinks {
+color: rgb(110, 118, 125);
+text-decoration: none;
+}
+
+.wd-line-color {
+    border: 1px solid gray;
+}
+
+.wd-width {
+    border: 1.5px solid gray;
+}
+
+.wd-div-title-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-div-heading {
+    color: white;
+    font-size: 22px;
+}
+
+.wd-three-dots {
+ position: fixed;
+   right: 12px;
+}
+
+#first-span {
+    position: fixed;
+    background-color: white;
+    right: 24px;
+    border-radius: 5px;
+    font-size: 0;
+    margin-left: 30px;
+    padding: 2px;
+}
+
+#first-span:before {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    content: '';
+    background-color: white;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px;
+}
+
+#first-span:after {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    content: '';
+    background-color: white;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px;
+}
+#second-span {
+    position: fixed;
+    background-color: gray;
+    right: 24px;
+    border-radius: 5px;
+    font-size: 0;
+    margin-left: 30px;
+    padding: 2px;
+}
+
+#second-span:before {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    content: '';
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px;
+}
+
+#second-span:after {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    content: '';
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px;
+}
+
+#second-c-span {
+    position: fixed;
+    background-color: gray;
+    right: 24px;
+    border-radius: 5px;
+    font-size: 0;
+    margin-left: 30px;
+    padding: 2px;
+}
+
+#second-c-span:before {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    content: '';
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px;
+}
+
+#second-c-span:after {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    content: '';
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 2px;
+}
+
+.wd-div-d-heading {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-iconDetails {
+    position: absolute;
+    top: 47.7%;
+    height:28px;
+    width:28px;
+}
+
+.wd-icon-bg-color {
+    background-color: white;
+}
