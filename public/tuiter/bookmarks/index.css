@@ -1,0 +1,114 @@
+
+.wd-title-size {
+    font-size: 20px;
+}
+
+.wd-mention {
+    font-size: 13px;
+}
+
+.wd-p-font-margin {
+    font-size: 15px
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.wd-rounded-avatar {
+  float: left;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-left: 16px;
+  margin-top: 12px
+}
+
+.wd-name-text {
+   margin-top: 12px;
+   font-size: 15px;
+}
+
+.wd-main-content {
+   margin-left: 76px;
+   width: 506px;
+   margin-bottom: 12px;
+}
+
+.wd-grid-image {
+    border-radius: 10px 10px 0 0;
+    margin-right: 12px;
+    width: 504px;
+    height: 264px;
+}
+
+.wd-para-gray {
+    font-size: 15px;
+    margin: 0px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+}
+
+.wd-border-thin {
+   margin-top: 12px;
+   border-width: 1px 1px 1px 1px;
+ }
+
+.wd-border-content-thin {
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0 0 10px 10px;
+  }
+
+.wd-image-border {
+   border-radius: 10px 10px 0 0;
+   width: 504px;
+   height: 264px;
+ }
+
+.wd-border-solid {
+      border-style: solid; }
+
+.wd-border-color {
+      border-color: rgb(110, 118, 125); }
+
+.wd-icons-div {
+    margin-top: 12px;
+}
+
+.wd-list-icons {
+    padding-left: 0px;
+}
+
+.wd-list-li-items {
+    padding: 10px 30px;
+    display:inline;
+}
+
+.wd-hr-thin {
+   border-width: 0.2px;
+   color: rgb(110, 118, 125);
+   border-style: solid;
+}
+
+.wd-icon-text {
+    margin-left: 12px;
+
+}
+
+.wd-logo-bookmark {
+     width:23px;
+     height:23px;
+}
+
+.wd-text-decoration {
+text-decoration: none;
+}
+
+.wd-logo-dot {
+    width:38px;
+    height:38px;
+}
+
+.wd-dots-span {
+    float: right;
+}
