@@ -241,6 +241,9 @@ p#id-selector-2 {
 .rotate-image {
    transform: rotate(-10deg);
 }
+.rotate-image-counter{
+   transform: rotate(10deg);
+}
 
 .rotate-table {
    position: relative;
@@ -267,8 +270,20 @@ p#id-selector-2 {
    height: 200px;
 }
 
+.gradients-linear-2 {
+ background: linear-gradient(pink, purple);
+   width: 200px;
+   height: 200px;
+}
+
 .gradients-radial {
  background: radial-gradient(yellow, green);
+ width: 200px;
+ height: 200px;
+}
+
+.gradients-radial-2 {
+ background: radial-gradient(pink, purple);
  width: 200px;
  height: 200px;
 }
@@ -277,6 +292,15 @@ p#id-selector-2 {
  background:
   radial-gradient(
    at top left, blue, red);
+ width: 200px;
+ height: 200px;
+ color: white;
+}
+
+.gradients-positioned-2{
+ background:
+  radial-gradient(
+   at top left, yellow, green);
  width: 200px;
  height: 200px;
  color: white;
@@ -325,6 +349,18 @@ p#id-selector-2 {
     background-color: red;
     color: white;
   }
+}
+
+.animation-keyframes-2{
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 4s;
+  color: red;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
 }
 
 .flex-container {
@@ -444,6 +480,15 @@ p#id-selector-2 {
     color: white;
   }
 }
+
+.rotate-list-counter {
+   transform: rotate(-12deg);
+   width: 100px;
+   background-color: red;
+   color: white;
+}
+
+
 
 
 
