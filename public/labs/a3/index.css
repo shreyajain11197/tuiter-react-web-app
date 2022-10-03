@@ -82,6 +82,10 @@ p#id-selector-2 {
  border-bottom-right-radius: 40px;
 }
 
+.rounded-corners-top {
+ border-top-left-radius: 40px;
+ border-top-right-radius: 40px;
+}
 .rounded-corners-all-around {
  border-radius: 50px;
 }
@@ -451,7 +455,7 @@ p#id-selector-2 {
 @media (min-width: 0px)
    and (max-width: 600px) {
   body {
-    background-color: yellow;
+    background-color: red;
   }
   .media-query {
     background-color: red;
@@ -472,8 +476,8 @@ p#id-selector-2 {
 @media (min-width: 1200px)
    and (max-width: 1800px) {
   body {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
   }
   .media-query {
     background-color: blue;
