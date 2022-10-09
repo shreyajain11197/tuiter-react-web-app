@@ -12,78 +12,87 @@
 </head>
 
 <body class="wd-body-color">
-<form class="ms-5 me-5 pe-5">
+<form class="mt-1 pt-1 ms-5 me-5 pe-1">
 <div class="row">
-    <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 ">
+    <div class=" col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 ">
         <ul class="nav flex-column ">
             <li class="nav-item">
-                <a class="nav-link wd-color-font" href="#"><i class="fab fa-twitter wd-color-font" style="color: white" aria-hidden="true"></i> </a>
+                <a class="nav-link wd-color-font" href="#"><i class="fab fa-twitter wd-color-font" style="color: white"
+                                                              aria-hidden="true"></i> </a>
             </li>
         </ul>
         <ul class="nav flex-column ">
-            <li class="nav-item  wd-margin-bottom">
-                <a class="nav-link wd-color-font"  href="./home.html">
-                    <i class="fa fa-home wd-color-font" aria-hidden="true"></i> Home</a>
+            <li class="nav-item mb-3">
+
+                <a class="nav-link wd-color-font"  href="#">
+                    <i class=" nav-logo fa fa-home wd-color-font" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >Home</span></a>
+
             </li>
-            <li class="nav-item  wd-margin-bottom">
-                <a class="nav-link  wd-color-font"  href="#">
-                    <i class="fa fa-hashtag wd-color-font" aria-hidden="true"></i> <b>Explore</b></a>
+            <li class="nav-item  mb-4">
+                <a class="nav-link wd-color-font active"  href="#">
+                    <i class="fa fa-hashtag wd-color-font" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline">Explore</span></a>
             </li>
-            <li class="nav-item  wd-margin-bottom">
+            <li class="nav-item  mb-4">
                 <a class="nav-link wd-color-font" href="#">
-                    <i class="fa fa-bell wd-color-font" aria-hidden="true"></i> Notifications</a>
+                    <i class="fa fa-bell wd-color-font" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >Notifications</span></a>
             </li>
-            <li class="nav-item  wd-margin-bottom">
+            <li class="nav-item  mb-4">
                 <a class="nav-link wd-color-font" href="#">
-                    <i class="fa fa-envelope wd-color-font"  aria-hidden="true"></i> Messages</a>
+                    <i class="fa fa-envelope wd-color-font"  aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >Messages</span></a>
             </li>
-            <li class="nav-item  wd-margin-bottom">
-                <a class="nav-link " style="color: white;" href="#">
-                    <i class="fa fa-bookmark wd-color-font"  aria-hidden="true"></i> Bookmarks</a>
+            <li class="nav-item  mb-4">
+                <a class="nav-link wd-color-font" href="#">
+                    <i class="fa fa-bookmark wd-color-font"  aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >Bookmarks</span></a>
             </li>
-            <li class="nav-item  wd-margin-bottom">
-                <a class="nav-link " style="color: white;" href="#">
-                    <i class="fa fa-list wd-color-font"  aria-hidden="true"></i> Lists</a>
+            <li class="nav-item  mb-4">
+                <a class="nav-link wd-color-font" href="#">
+                    <i class="fa fa-list wd-color-font"  aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >Lists</span></a>
             </li>
-            <li class="nav-item  wd-margin-bottom">
-                <a class="nav-link wd-color-font "  href="#">
-                    <i class="fa fa-user wd-color-font" aria-hidden="true"></i> Profile</a>
+            <li class="nav-item  mb-4">
+                <a class="nav-link wd-color-font"  href="#">
+                    <i class="fa fa-user wd-color-font" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >Profile</span></a>
             </li>
             <li class="nav-item  ">
                 <a class="nav-link wd-color-font" href="#">
-
-                    <i class="fa fa-ellipsis-h wd-color-font"  aria-hidden="true"></i> More</a>
+                    <i class="fa fa-ellipsis-h wd-color-font"  aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline d-xxl-inline" >More</span></a>
             </li>
         </ul>
         <br/>
-        <button class="wd-tweet-button" id="tweet">Tweet</button>
+        <button class="wd-tweet-button" id="tweet">
+            <span class="wd-font-tweet">Tweet</span></button>
     </div>
-    <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-xxl-7 wd-border-solid wd-border-color wd-border-content-thin">
-        <div class="input-group">
-            <input type="search" class="form-control wd-background-color"
-                   placeholder="Search Twitter" aria-label="Search" aria-describedby="search-addon" />
-            <span class="" id="search-addon">
-                <i class="fas fa-cog fa-2x" style="color: white;"></i>
-                </span>
-   </div>
+    <div class="col-9 col-sm-9 col-md-9 col-lg-7 col-xl-7 col-xxl-7 ">
+            <div class="form-group has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="wd-form-control border-0 wd-background-color" placeholder="Search Twitter">
+                <span><a href="#">
+                    <img class = "wd-icon-details-gear" src="../../res/gear-icon.png"></a> </span>
+            </div>
+
         <ul class="nav nav-fill nav-tabs flex-row flex-sm-row">
             <li class="nav-item wd-color-font">
-                <a class="wd-color-font-other nav-link" href="for-you.html">For you</a>
+                <a class="wd-color-font nav-link" style="border-bottom:3px solid #1DA1F2" href="#">For you</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link wd-color-font-other" href="news.html">Trending</a>
+                <a class="nav-link wd-color-font-other" href="#">Trending</a>
             </li>
             <li class="nav-item ">
-                <a class=" nav-link wd-color-font-other" href="covid.html">Covid-19</a>
+                <a class="nav-link wd-color-font-other" href="#">News</a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link wd-color-font-other" href="news.html">News</a>
+            <li class="nav-item d-none d-sm-block d-md-block d-lg-block">
+                <a class=" nav-link wd-color-font-other " href="#">Sports</a>
             </li>
-            <li class="nav-item d-none d-sm-none d-md-none d-lg-block">
-                <a class=" nav-link wd-color-font-other "  href="sports.html">Sports</a>
-            </li>
-            <li class="nav-item active d-none d-sm-none d-md-none d-lg-block">
-                <a class=" nav-link wd-color-font wd-first-link" style=" border-bottom:3px solid #1DA1F2;" href="entertainment.html">Entertainment</a>
+            <li class="nav-item active d-none d-sm-none d-md-block d-lg-block">
+                <a class=" nav-link wd-color-font-other wd-first-link"
+                   href="#">Entertainment</a>
             </li>
         </ul>
         <br/>
@@ -98,21 +107,21 @@
         <hr class = "wd-line-color">
         <div class="wd-grid-row">
             <div class="wd-grid-col-full-page">
-                <div class = "wd-div-title-tuits wd-color">Trending in R&B and soul</div>
+                <div class = "wd-div-title-tuits mx-0 wd-color">Trending in R&B and soul</div>
                 <span class="wd-dots-span"> <img class = "wd-logo" src="../../res/dots-gray-icon.png" /></span>
                 <p class="wd-p-margin wd-font-bold-white">R Kelly</p>
-                <div class = "wd-div-title-tuits wd-color">18.2K Tweets</div>
+                <div class = "wd-div-title-tuits mx-0 wd-color">18.2K Tweets</div>
                 <br/>
             </div>
         </div>
 
         <div class="  wd-grid-row">
             <div class="wd-grid-col-full-page">
-                <div class = "wd-div-title-tuits wd-color">Trending in R&B and soul</div>
+                <div class = "wd-div-title-tuits mx-0 wd-color">Trending in R&B and soul</div>
                 <span class="wd-dots-span"> <img class = "wd-logo" src="../../res/dots-gray-icon.png" /></span>
                 <p class="wd-p-margin wd-font-bold-white">Chloe</p>
-                <span class = "wd-div-title-tuits wd-color">Trending with</span>
-                <span class="wd-div-title-tuits wd-twitter-blue">Halle</span>
+                <span class = "wd-div-title-tuits mx-0 wd-color">Trending with</span>
+                <span class="wd-div-title-tuits mx-0 wd-twitter-blue">Halle</span>
                 <br/>
                 <br/>
             </div>
@@ -123,7 +132,7 @@
                 <img class = " wd-image-details" src="../../res/stanley.jpeg" />
                 <img class = "wd-icon-details" src="../../res/the-times-icon.jpeg">
                 <span class="wd-d-heading">The Times</span>
-                <img class = "wd-icon-details" src="../../res/verified-icon.jpg">
+                <img class = "wd-icon-details" src="../../res/verified-white.png">
                 <span class="wd-d-text wd-color">. September 24, 2021</span>
                 <br/>
                 <span class="wd-font-bold-white">
@@ -132,18 +141,19 @@
 
         </div>
     </div>
-    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 ">
-        <div class="card">
-            <div class="card-body wd-background-color">
+    <div class=" col-lg-4 col-xl-3 col-xxl-3 d-none d-lg-block d-xl-block d-xxl-block ">
+
+            <div class="card-body wd-background-color wd-border-radius">
                 <h5 class="card-title wd-card-title">Who to follow</h5>
                 <div class="row">
                     <div class="col-3 col-md-3 col-xl-3">
-                        <img class="wd-image-card" src="../../res/alice.jpeg">
+                        <img class="wd-image-card rounded-circle" src="../../res/babylon-bee-icon.png">
                     </div>
                     <div class="col-6 col-md-6 col-xl-6">
-                        <span class="wd-card-title-card wd-card-font-color">The Babylion Bee</span>
-                        <img class = "wd-icon-details-card" src="../../res/verified-icon.jpg">
-                        <div class = "wd-div-title-tuits-card wd-color">@TheBabylionBee</div>
+                        <span class="wd-card-title-card wd-card-font-color">The Babylon Bee</span>
+                        <i class="fa-sharp fa-solid fa-badge-check"></i>
+                        <img class = "wd-icon-details-card" src="../../res/verified-white.png">
+                        <div class = "wd-div-title-tuits-card wd-color">@TheBabylonBee</div>
                         <span></span>
                     </div>
                     <div class="col-3 col-md-3 col-xl-3">
@@ -154,12 +164,12 @@
                 <br/>
                 <div class="row">
                     <div class="col-3 col-md-3 col-xl-3">
-                        <img class="wd-image-card" src="../../res/alice.jpeg">
+                        <img class="wd-image-card rounded-circle" src="../../res/jack.jpeg">
                     </div>
                     <div class="col-6 col-md-6 col-xl-6">
                         <span class="wd-card-title-card wd-card-font-color">Jack Pasobiec</span>
                         <img class = "wd-icon-details-card-flag" src="../../res/usa-icon.png">
-                        <img class = "wd-icon-details-card" src="../../res/verified-icon.jpg">
+                        <img class = "wd-icon-details-card" src="../../res/verified-white.png">
                         <div class = "wd-div-title-tuits-card wd-color">@JackPasobiec</div>
                         <span></span>
                     </div>
@@ -171,11 +181,12 @@
                 <br/>
                         <div class="row">
                             <div class="col-11 col-md-11 col-xl-11">
-                                <span class="wd-card-title-card-show wd-twitter-blue"><a  class="wd-links" href="#" >Show more</a></span>
+                                <span class="wd-card-title-card-show wd-twitter-blue">
+                                    <a  class="wd-links" href="#" >Show more</a></span>
                             </div>
                         </div>
             </div>
-        </div>
+
         <div class=" wd-div-title-tuits-card wd-color-font-other mt-2 ">
             <span class="ms-3"><a class="wd-links wd-links-color" href="#">Terms of service</a></span>
             <span class="ms-3"><a class="wd-links wd-links-color" href="#">Privacy Policy</a></span>
