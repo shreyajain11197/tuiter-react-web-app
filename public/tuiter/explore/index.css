@@ -1,6 +1,3 @@
-.wd-body-color {
-background-color: black;
-}
 
 .wd-rounded-corners-all-around {
  border-radius: 50px;
@@ -13,7 +10,6 @@ background-color: black;
 background-color: white;
 }
 
-.wd-color-black { color: black; }
 
 #wd-settings {
     float:right;
@@ -269,8 +265,8 @@ font-weight: bold;
 color: white;}
 
 .wd-image-card {
-   width: 100%;
-   height: 90%;
+   width: 45px;
+   height: 45px;
 }
 
 .wd-border-radius {
@@ -278,13 +274,13 @@ color: white;}
 }
 
 .wd-icon-details-card {
-    height: 18%;
-    width: 16%;
+    height: 12px;
+    width: 12px;
 }
 
 .wd-icon-details-card-flag {
-      height: 20%;
-      width: 11%;
+      height: 12px;
+      width: 12px;
 }
 
 .wd-links {

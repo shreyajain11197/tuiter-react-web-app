@@ -1,44 +1,10 @@
-html{
-    background-color: black;
-    border-color: rgb(47,51,54);
-    border-width: 4px;
-    border-style: solid;
-}
-
-body {
-    color: white;
-    margin:0px;
-}
-
-.wd-pos-absolute-left {
-    margin-left: 16px;
-    margin-top: 12px;
-}
-
-.wd-pos-absolute-right {
-   margin-right: 12px;
-   margin-top: 16px;
-}
-
-.wd-width {
-  border: 1px solid gray;
+.wd-body-color {
+background-color: black;
 }
 
 .wd-color {
   color: rgb(110, 118, 125);
 }
 
-.wd-grid-col-full-page {
-   width: 100%;
-   margin-top 12px;
-   float: left;
-}
 
-.grid-row {
-   clear: both;
-}
-
-.wd-p-margin {
-    margin: 0;
-}
-
+.wd-color-black { color: black; }
