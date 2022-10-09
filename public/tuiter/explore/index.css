@@ -154,7 +154,7 @@ font-size: 80%;
  height: 40%;
  color: black;
  text-align: center;
- font-size: 9px;
+ font-size: 12px;
  }
 
 .wd-padding-right-col {
@@ -231,7 +231,6 @@ font-size: 10px;}
  }
 
 .wd-font-bold-white {
-   font-weight: bold;
    color: white;
 }
 
@@ -309,7 +308,7 @@ text-decoration: none;
     display: block;
     width: 2.375rem;
     height: 2.375rem;
-    line-height: 3.8rem;
+    line-height: 3.9rem;
     text-align: center;
     pointer-events: none;
     color: #aaa;
@@ -334,3 +333,9 @@ text-decoration: none;
 .wd-border-active-link {
  border-bottom:3px solid #1DA1F2
 }
+
+ div.override-div {
+    border-left: solid rgb(26,26,26) 2px;
+    border-right: solid rgb(26,26,26) 2px;
+    border-top: solid rgb(26,26,26) 2px;
+ }
