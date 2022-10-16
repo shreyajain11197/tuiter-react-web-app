@@ -16,6 +16,10 @@ background-color: black;
 .wd-color-font{
 color: white;
 }
+.override-wd-color-font{
+color: white;
+text-decoration: none;
+}
 
 .wd-image-details {
     float: right;
@@ -66,4 +70,8 @@ height: 40%;
 .wd-d-gray-text {
  color: rgb(110, 118, 125);
  font-size: 14px;
+}
+
+.wd-no-decoration {
+    text-decoration: none;
 }
