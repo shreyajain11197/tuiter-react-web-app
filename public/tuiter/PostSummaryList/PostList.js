@@ -13,7 +13,7 @@ const PostList = (post) => {
                   <br/>
                   <span class="wd-font-white">${post.title}</span>
                 </div>
-                <div class="card mt-1">
+                <div class="card mt-2">
                   <img class="card-img-top wd-scale-image-override" src="${post.image}">
                   <div class="card-body override-card-color">
                     <p class="card-text wd-d-text-white mb-0">${post.content}</p>
