@@ -9,7 +9,7 @@ const ExploreComponent = () => {
                          <i class="fa fa-gear fa-2x wd-image-details-settings"></i> </a> </span>
                    </div>
                    <br/>
-           <ul class="nav nav-tabs flex-row flex-sm-row">
+           <ul class="nav nav-tabs flex-row flex-sm-row mb-1">
                       <li class="nav-item wd-color-font">
                           <a class="wd-color-font nav-link active" href="#"><b>For you</b></a>
                       </li>
@@ -27,8 +27,6 @@ const ExploreComponent = () => {
                              href="#">Entertainment</a>
                       </li>
                   </ul>
-                  <br/>
-
            ${PostSummaryList()}
     `);
 }
