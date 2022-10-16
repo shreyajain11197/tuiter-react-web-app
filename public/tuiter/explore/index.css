@@ -21,14 +21,6 @@ background-color: white;
 
 .wd-hyperlink-display {
     display: inline-block;
-    padding-left:5em;
-
-}
-
-.wd-hyperlink-font-padding {
-    font-size: 15px;
-    padding: 16px;
-
 }
 
 .wd-first-link {
@@ -49,32 +41,31 @@ text-decoration: none;
 }
 
 .wd-div-title-tuits-card {
-    font-size: 10px;
+    font-size: 11px;
 
 }
 
 .wd-d-heading {
     color: white;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .wd-d-text {
-    font-size: 12px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
 }
 
 .wd-image-details {
     float: right;
-    height: 10%;
-    width: 15%;
+    height: 90px;
+    width: 90px;
     border-radius: 20%;
 }
 
 
 .wd-image-details-settings {
     float: right;
-    height: 5%;
-    width: 5%;
-    border-radius: 20%;
 }
 
 .wd-icon-details {
@@ -83,8 +74,8 @@ text-decoration: none;
 }
 
 .wd-icon-details-gear {
-    height: 7%;
-    width: 7%;
+    height: 9%;
+    width: 9%;
 }
 
 .wd-dots-span {
@@ -117,7 +108,7 @@ width: 100% !important;
       border-color: #222222; }
 
 .wd-background-color {
-      background-color: #222222; }
+      background-color: white; }
 
 .form-control.wd-background-color {
     background-color: #222222; }
@@ -137,37 +128,29 @@ text-align: center;
 font-size: 80%;
 }
 
-.wd-border-top-row-thin {
-   border-width: 0.5px 0.5px 0px 0.5px;
-   padding-bottom: 10px;
- }
-
 .wd-follow-button {
- background-color: white;
+ background-color :#1DA1F2;
  border-radius: 40px;
  border: 0px;
- width: 100%;
- height: 40%;
- color: black;
+ width: 90px;
+ height: 40px;
+ color: white;
  text-align: center;
  font-size: 12px;
  }
 
-.wd-padding-right-col {
-padding: 2px;
-}
+
 
 .wd-name-text {
    font-size: 15px;
 }
 
-.wd-right-column-padding {
-    padding: 0px;
-}
+
 
 .wd-name-text-right {
    font-size: 12px;
 }
+
 img.wd-scale-image {
 width: 100%;
 height: 40%;
@@ -179,34 +162,18 @@ height: 40%;
   width: 50px;
   border-radius: 50%;
 }
-.nav-item.wd-color-font{
-color: white;}
 
-.nav-link.wd-color-font{
-color: white;}
-
-.nav-link.wd-color-font-other{
-color: rgb(110, 118, 125);}
-
-.wd-color-font-other{
-color: rgb(110, 118, 125);}
-
-.wd-color-font{
-color: white;}
 
 .wd-font-size-below-image {
 font-size: 10px;}
 
 
-.wd-color-font {
-  color: white;
-}
-
 .wd-bottom-left {
   position: absolute;
   bottom: 0%;
   left: 1%;
-  font-size: 10px;
+  color: #222222;
+  font-size: 40px;
   text-align: left;
 }
 .wd-bottom-left-2 {
@@ -219,8 +186,6 @@ font-size: 10px;}
   color: white;
 }
 
-
-
 .wd-border-content-thin-2 {
     border-width: 0px 0.5px 0px 0.5px;
     border-radius: 0px 0px 0px 0px;
@@ -228,6 +193,8 @@ font-size: 10px;}
 
 .wd-font-bold-white {
    color: white;
+   font-size: 12px;
+   font-weight: bold;
 }
 
 .wd-font-bold-white-smaller {
@@ -242,7 +209,7 @@ color:#1DA1F2;
 
 .wd-border-top-row-thin-rounded {
    border-width: 0px 0px 0px 0px;
-   padding-bottom: 10px;
+
    border-radius: 10px 10px 0px 0px;
  }
 
@@ -252,7 +219,7 @@ color: white;
 
 .wd-card-title-card {
 text-align-center;
-font-size: 9px;
+font-size: 13px;
 }
 
 .wd-card-title-card-show {
@@ -273,9 +240,12 @@ color: white;}
     border-radius: 10%;!
 }
 
+.card.wd-rounded {
+border-radius: 30px;}
+
 .wd-icon-details-card {
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
 }
 
 .wd-icon-details-card-flag {
@@ -304,18 +274,18 @@ text-decoration: none;
     display: block;
     width: 2.375rem;
     height: 2.375rem;
-    line-height: 3.9rem;
+    line-height: 2.1rem;
     text-align: center;
     pointer-events: none;
     color: #aaa;
 }
 
 .wd-form-control {
-    height: 4%;
+    height: 30px;
     width: 90%;
     border-radius: 40px 40px 40px 40px;
     padding-left: 2.375rem;
-    color: rgb(110, 118, 125);
+    color: black;
 }
 
 .nav-link.active {
