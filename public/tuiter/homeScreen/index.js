@@ -21,7 +21,7 @@ function exploreComponent() {
        </div>
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-   <div>
+   <div class="card">
         ${
            posts.map(post => {
               return(PostSummaryList(post));

@@ -6,9 +6,7 @@ const postSummaryList = () => {
            <img class="wd-scale-image" src="../../res/starship.png">
            <p class=" wd-bottom-left"> Spacex's Starship </p>
        </div>
-
-       <hr class = "wd-line-color">
-       <div>
+       <div class="card mt-3">
                  ${
                     posts.map(post => {
                        return(PostSummaryList(post));

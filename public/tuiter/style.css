@@ -6,6 +6,10 @@ background-color: black;
   color: rgb(110, 118, 125);
 }
 
+.wd-color-background-gray {
+  background-color: rgb(110, 118, 125);
+}
+
 
 .wd-color-black { color: black; }
 
@@ -15,7 +19,7 @@ color: white;
 
 .wd-image-details {
     float: right;
-    height: 90px;
+    height: 80px;
     width: 90px;
     border-radius: 20%;
 }
@@ -46,4 +50,20 @@ height: 40%;
     font-size: 15px;
     color: white;
     font-weight: bold;
+}
+.wd-d-text {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-font-bold-white {
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.wd-d-gray-text {
+ color: rgb(110, 118, 125);
+ font-size: 14px;
 }

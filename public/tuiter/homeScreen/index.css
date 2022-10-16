@@ -10,7 +10,7 @@
 
 .wd-font-white {
    color: white;
-   font-size: 12px;
+   font-size: 14px;
 }
 
 .wd-rounded-avatar {
@@ -21,4 +21,12 @@
 
 .card-body.override-card-color {
     background-color: black;
+}
+img.wd-scale-image-override {
+    width: 100%;
+    height: 350px;
+}
+
+.wd-no-decoration {
+    text-decoration: none;
 }
