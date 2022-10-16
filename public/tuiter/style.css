@@ -10,4 +10,40 @@ background-color: black;
 .wd-color-black { color: black; }
 
 .wd-color-font{
-color: white;}
+color: white;
+}
+
+.wd-image-details {
+    float: right;
+    height: 90px;
+    width: 90px;
+    border-radius: 20%;
+}
+
+.wd-d-heading {
+    color: white;
+    font-size: 12px;
+}
+
+.wd-links-color {
+  color: rgb(110, 118, 125);
+}
+
+.wd-icon-details {
+    height: 15px;
+    width: 15px;
+}
+.wd-dots-span {
+    float: right;
+}
+
+img.wd-scale-image {
+width: 100%;
+height: 40%;
+}
+
+.wd-d-text-white {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}

@@ -45,37 +45,19 @@ text-decoration: none;
 
 }
 
-.wd-d-heading {
-    color: white;
-    font-size: 12px;
+.wd-image-details-settings {
+    float: right;
+}
+
+.wd-icon-details-gear {
+    height: 9%;
+    width: 9%;
 }
 
 .wd-d-text {
     font-size: 15px;
     color: white;
     font-weight: bold;
-}
-
-.wd-image-details {
-    float: right;
-    height: 90px;
-    width: 90px;
-    border-radius: 20%;
-}
-
-
-.wd-image-details-settings {
-    float: right;
-}
-
-.wd-icon-details {
-    height: 2%;
-    width: 2%;
-}
-
-.wd-icon-details-gear {
-    height: 9%;
-    width: 9%;
 }
 
 .wd-dots-span {
@@ -255,10 +237,6 @@ border-radius: 30px;}
 
 .wd-links {
 text-decoration: none;
-}
-
-.wd-links-color {
-  color: rgb(110, 118, 125);
 }
 
 .form-control:focus {
