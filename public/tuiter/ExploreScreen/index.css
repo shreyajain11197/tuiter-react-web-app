@@ -1,0 +1,276 @@
+
+.wd-rounded-corners-all-around {
+ border-radius: 50px;
+ width: 90%;
+ height: 40%;
+ border-left: 0px;
+}
+
+.wd-background-gray {
+background-color: white;
+}
+
+
+#wd-settings {
+    float:right;
+}
+.wd-logo {
+     width:38px;
+     height:38px;
+}
+
+.wd-hyperlink-display {
+    display: inline-block;
+}
+
+.wd-first-link {
+    color: #1DA1F2;
+    text-underline-offset: 1em;
+}
+
+.wd-other-hyperlinks {
+text-decoration: none;
+}
+
+.wd-line-color {
+    border: 1px solid gray;
+}
+
+.wd-div-title-tuits {
+    font-size: 13px;
+}
+
+.wd-div-title-tuits-card {
+    font-size: 11px;
+
+}
+
+.wd-image-details-settings {
+    float: right;
+}
+
+.wd-icon-details-gear {
+    height: 9%;
+    width: 9%;
+}
+
+
+
+.wd-dots-span {
+    float: right;
+}
+.wd-color-icons-names {
+color: white;}
+
+.search-form {
+  border-radius: 30px 0px 0px 30px;
+}
+
+.search-btn {
+  border-radius: 0px 30px 30px 0px;
+  cursor:pointer;
+  background-color: white;
+ }
+
+
+.form-control {
+border-radius: 40px !important;
+height: 20% !important;
+width: 100% !important;
+}
+
+.wd-border-solid {
+      border-style: solid; }
+
+.wd-border-color {
+      border-color: #222222; }
+
+.wd-background-color {
+      background-color: white; }
+
+.form-control.wd-background-color {
+    background-color: #222222; }
+
+.wd-line-below {
+border-bottom: 1px solid #555;
+}
+
+.wd-tweet-button {
+background-color: #1DA1F2;
+border-radius: 40px;
+border: 0;
+height: 5%;
+width: 100%;
+color: white;
+text-align: center;
+font-size: 80%;
+}
+
+.wd-follow-button {
+ background-color :#1DA1F2;
+ border-radius: 40px;
+ border: 0px;
+ width: 90px;
+ height: 40px;
+ color: white;
+ text-align: center;
+ font-size: 12px;
+ }
+
+
+
+.wd-name-text {
+   font-size: 15px;
+}
+
+
+
+.wd-name-text-right {
+   font-size: 12px;
+}
+
+img.wd-scale-image {
+width: 100%;
+height: 40%;
+}
+
+.wd-rounded-follow-icon {
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.wd-font-size-below-image {
+font-size: 10px;}
+
+
+.wd-bottom-left {
+  position: absolute;
+  bottom: 0%;
+  left: 1%;
+  color: #222222;
+  font-size: 40px;
+  text-align: left;
+}
+.wd-bottom-left-2 {
+ font-size: 14px;
+}
+
+.wd-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.wd-border-content-thin-2 {
+    border-width: 0px 0.5px 0px 0.5px;
+    border-radius: 0px 0px 0px 0px;
+ }
+
+
+.wd-font-bold-white-smaller {
+   font-weight: bold;
+   color: white;
+   font-size: 8px;
+}
+
+.wd-twitter-blue {
+color:#1DA1F2;
+}
+
+.wd-border-top-row-thin-rounded {
+   border-width: 0px 0px 0px 0px;
+
+   border-radius: 10px 10px 0px 0px;
+ }
+
+.wd-card-title {
+color: white;
+}
+
+.wd-card-title-card {
+text-align-center;
+font-size: 13px;
+}
+
+.wd-card-title-card-show {
+text-align-center;
+font-size: 13px;
+font-weight: bold;
+}
+
+.wd-card-font-color {
+color: white;}
+
+.wd-image-card {
+   width: 45px;
+   height: 45px;
+}
+
+.wd-border-radius {
+    border-radius: 10%;!
+}
+
+.card.wd-rounded {
+border-radius: 30px;}
+
+.wd-icon-details-card {
+    height: 15px;
+    width: 15px;
+}
+
+.wd-icon-details-card-flag {
+      height: 12px;
+      width: 12px;
+}
+
+.wd-links {
+text-decoration: none;
+}
+
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.1rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-form-control {
+    height: 30px;
+    width: 90%;
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 2.375rem;
+    color: black;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link.active i{
+    zoom: 140%;
+}
+
+.wd-border-active-link {
+ border-bottom:3px solid #1DA1F2
+}
+
+ div.override-div {
+    border-left: solid rgb(26,26,26) 2px;
+    border-right: solid rgb(26,26,26) 2px;
+    border-top: solid rgb(26,26,26) 2px;
+ }

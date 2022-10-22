@@ -1,0 +1,36 @@
+.wd-logo-dot {
+    width:25px;
+    height:25px;
+}
+
+.wd-d-text {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-white {
+   color: white;
+   font-size: 14px;
+}
+
+.wd-rounded-avatar {
+  float: left;
+  height: 48px;
+  width: 48px;
+}.wd-rounded-avatar {
+  float: left;
+  height: 48px;
+  width: 48px;
+}
+
+.card-body.override-card-color {
+    background-color: black;
+}
+img.wd-scale-image-override {
+    width: 100%;
+    height: 350px;
+}
+
+.wd-no-decoration {
+    text-decoration: none;
+}
