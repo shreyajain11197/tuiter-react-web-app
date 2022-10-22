@@ -1,0 +1,98 @@
+.wd-tabs li {
+   display: inline;
+}
+
+.wd-tabs {
+   padding-left: 0px;
+}
+
+.wd-selected {
+   border-bottom: 2px blue solid;
+   padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+   bottom: 18px;
+   left: 25px;
+}
+
+.wd-bottom-2 {
+   bottom: 2px;
+}
+
+.wd-bottom-4 {
+   bottom: 4px;
+}
+
+.wd-rounded-avatar {
+  height: 48px;
+  width: 48px;
+}
+
+.wd-rounded-avatar-nested {
+    height: 20px;
+    width: 20px;
+}
+
+.wd-icon-details {
+    height: 15px;
+    width: 15px;
+}
+
+.wd-color {
+  color: rgb(110, 118, 125);
+}
+
+.wd-username-bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.wd-text-size {
+    font-size: 14px;
+}
+
+
+.wd-title-color {
+    color: #3a3b3c;
+}
+
+.wd-image-details {
+    width: 100%;
+}
+
+.wd-twitter-color {
+    color: #1DA1F2;
+}
+
+.wd-no-decoration {
+    text-decoration: none;
+}
+
+.wd-show-text{
+    font-size: 15px;
+}
+
+.wd-dots-span {
+    float: right;
+}
+
+.wd-logo-dot {
+    width:30px;
+    height:30px;
+}
+
+.wd-stats-text {
+ color: rgb(110, 118, 125);
+ font-size: 14px;
+}
+
+.wd-stats-text-retweet {
+ color: rgb(110, 118, 125);
+ font-size: 13px;
+}

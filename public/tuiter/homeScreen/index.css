@@ -17,6 +17,10 @@
   float: left;
   height: 48px;
   width: 48px;
+}.wd-rounded-avatar {
+  float: left;
+  height: 48px;
+  width: 48px;
 }
 
 .card-body.override-card-color {
