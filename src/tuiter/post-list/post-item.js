@@ -19,32 +19,32 @@ const PostItem = (
     </div>
    <div className="row mt-0">
     <div className="col-1">
-        <img className="wd-rounded-avatar rounded-circle" src={`/res/images/${post.avatar}`}/>
+        <img className="wd-rounded-avatar rounded-circle" alt="avatar" src={`/res/images/${post.avatar}`}/>
     </div>
     <div className="col-11">
        <div class="ms-3">
             <span class="wd-username-bold me-1"> {post.userName}</span>
             <span><i class="bi bi-patch-check-fill me-1  wd-twitter-color"></i></span>
-            <span class="wd-dots-span"> <img class = "wd-logo-dot" src="../../res/images/dots-gray-icon.png" /></span>
+            <span class="wd-dots-span"> <img class = "wd-logo-dot" alt="dots" src="../../res/images/dots-gray-icon.png" /></span>
             <span class="wd-color wd-text-size">@{post.handle}</span>
             <span class="wd-color wd-text-size bi bi-dot">{post.time}</span>
             <br/>
             <span class=" wd-title-color wd-text-size mb-3">{post.title}</span>
             {post.url.length > 0 &&
-                  <span class=" wd-title-color wd-text-size"><a class="wd-twitter-color wd-no-decoration" href="#">{post.url}</a></span>}
+                  <span class=" wd-title-color wd-text-size"><a class="wd-twitter-color wd-no-decoration" href="/tuiter/home">{post.url}</a></span>}
               {post.image.length > 0 &&
-               <img className="wd-image-details mt-2 rounded-4" src={`/res/images/${post.image}`}/>}
-              {post.image.length == 0 &&
+               <img className="wd-image-details mt-2 rounded-4" alt="image" src={`/res/images/${post.image}`}/>}
+              {post.image.length === 0 &&
                <div class="card rounded-4">
                 <div class="mt-2 ms-3">
-                     <span><img className="wd-rounded-avatar-nested rounded-circle" src={`/res/images/${post.nested.avatar}`}/> </span>
+                     <span><img  className="wd-rounded-avatar-nested rounded-circle" alt="avatar" src={`/res/images/${post.nested.avatar}`}/> </span>
                      <span class="wd-username-bold me-1"> {post.nested.userName}</span>
                      <span><i class="bi bi-patch-check me-1"></i></span>
                      <span class="wd-color wd-text-size">@{post.nested.handle}</span>
                      <span class="wd-color wd-text-size"> - {post.nested.time}</span>
                      <br/>
                      <span class=" wd-title-color wd-text-size mb-3">{post.nested.title}</span>
-                    <span class="wd-title-color wd-text-size"><a class=" wd-title-color wd-no-decoration" href="#">{post.nested.url}</a></span>
+                    <span class="wd-title-color wd-text-size"><a class=" wd-title-color wd-no-decoration" href="/tuiter/home">{post.nested.url}</a></span>
                 </div>
                </div>
               }
