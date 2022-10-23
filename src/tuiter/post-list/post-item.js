@@ -39,7 +39,7 @@ const PostItem = (
                 <div class="mt-2 ms-3">
                      <span><img  className="wd-rounded-avatar-nested rounded-circle" alt="avatar" src={`/res/images/${post.nested.avatar}`}/> </span>
                      <span class="wd-username-bold me-1"> {post.nested.userName}</span>
-                     <span><i class="bi bi-patch-check me-1"></i></span>
+                     <span><i class="bi bi-patch-check-fill me-1  wd-twitter-color"></i></span>
                      <span class="wd-color wd-text-size">@{post.nested.handle}</span>
                      <span class="wd-color wd-text-size"> - {post.nested.time}</span>
                      <br/>
