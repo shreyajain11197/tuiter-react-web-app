@@ -10,7 +10,7 @@ const TuitStat = (
     return(
         <div className="row mt-1">
             <div className="col-3 col-md-3 col-lg-3 col-xl-3">
-                <span><i className="fa-regular fa-comment wd-color me-2"> </i></span>
+                <span><i className="bi bi-chat wd-color me-2"> </i></span>
                 <span className="wd-stats-text">{post.replies}</span>
             </div>
             <div className="col-3 col-md-3 col-lg-3 col-xl-3">
