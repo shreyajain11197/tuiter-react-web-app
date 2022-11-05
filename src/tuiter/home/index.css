@@ -43,6 +43,10 @@
   color: rgb(110, 118, 125);
 }
 
+.wd-likes-color {
+    color: red;
+}
+
 .wd-username-bold {
     font-weight: bold;
     font-size: 14px;
@@ -67,7 +71,7 @@
 }
 
 .wd-twitter-color {
-    color: #1DA1F2;
+    color: #0066ff;
 }
 
 .wd-no-decoration {
