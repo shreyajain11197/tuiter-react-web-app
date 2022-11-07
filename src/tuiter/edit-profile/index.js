@@ -65,7 +65,7 @@ const EditProfile = () => {
             </div>
             <div className={"border mt-1"}>
                 <span class={"wd-color"}>Birth Date</span> <br/>
-                <input value={profile.dateOfBirth}
+                <input type="date" value={profile.dateOfBirth}
                        className="form-control border-0"
                        onChange={(event) => setProfile({...profile, dateOfBirth: event.target.value})}/>
             </div>
