@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.css';
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 import TuitStat from "./tuit-stat";
 
 const TuitItem = (
@@ -11,7 +11,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
  return(
   <li className="list-group-item">
