@@ -22,12 +22,12 @@ const TuitStat = (
             </div>
             <div className="col-3">
                    <span>
-                    { post.liked && <i className="bi bi-hand-thumbs-down-fill me-2 text-danger"
+                    { post.liked && <i className="bi bi-heart-fill me-2 text-danger"
                                           onClick={() => dispatch(updateTuitThunk({
                                               ...post,
                                               liked: false,
                                               likes: post.likes - 1}))}/> }
-                       { !post.liked && <i className="bi bi-hand-thumbs-down me-2"
+                       { !post.liked && <i className="bi bi-heart-fill me-2"
                                               onClick={() => dispatch(updateTuitThunk({
                                                   ...post,
                                                   liked: true,
