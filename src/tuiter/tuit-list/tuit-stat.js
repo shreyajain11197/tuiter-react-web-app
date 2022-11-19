@@ -27,7 +27,7 @@ const TuitStat = (
                                               ...post,
                                               liked: false,
                                               likes: post.likes - 1}))}/> }
-                       { !post.liked && <i className="bi bi-heart-fill me-2"
+                       { !post.liked && <i className="bi bi-heart me-2"
                                               onClick={() => dispatch(updateTuitThunk({
                                                   ...post,
                                                   liked: true,
