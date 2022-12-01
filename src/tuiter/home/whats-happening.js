@@ -11,6 +11,8 @@ const WhatsHappening = () => {
             liked: false,
             dislikes: 0,
             disliked: false,
+            replies: 0,
+            retuits: 0,
             image: "nasa-icon.png",
             userName: "Nasa",
             handle: "@nasa",
@@ -22,7 +24,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto">
-                <img src="/res/images/nasa-icon.png" width={60}/>
+                <img  alt="image" src="/res/images/nasa-icon.png" width={60}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
